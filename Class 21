@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM2 ACTION</title>
+</head>
+<body>
+    <h1>Elden ring</h1>
+    <p>do not share your user password</p>
+    <form action="Elden.jpg" method="GET"> <!--action opens up ann image in new page when sign-in is clicked-->
+        <!--for not showing details use get replace by POST-->
+        <label for="username">Username :</label>
+        <input type="text" id="username" name="username"> <br> <br><!
+
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email"> <br><br>
+
+        <input type="submit" value="sign in"><br>
+    </form>
+</body>
+</html>
