@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>id and class</title>
+    <style>
+        .h1{
+            color: beige;
+        }
+        #p1{
+            color:rgb(230, 14, 21);
+        }
+    	.h2{
+        color:rgb(85, 8, 97);
+    }
+        #y1{
+        color: rgb(3, 210, 210);
+    }
+    
+    </style>
+</head>
+<body>
+    <h1 class="h1"; style="background-color: black";>this is heading1</h1>
+    <p id="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled i</p>
+    <h2 class="h2">this is heading2</h2>
+    <p id="y1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+    </p>
+</body>
+</html>
